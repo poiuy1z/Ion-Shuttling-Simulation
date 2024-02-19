@@ -40,6 +40,10 @@ v_har can fit the proximity of the minimum potential energy point as a harmonic 
 
 cal_v() can calculate the DC voltages of 2 endcaps of the time that you choose given the waveform. The result can be used to find omega(t) and x_0(t).
 
+## ctrl_vol.py
+
+ctrl_vol() use the control voltage method to calculate the electric potential given 2 endcap voltages. It returns the angular trap frequency and the minimum potential point coordinate.
+
 ## fitting.py
 
 This program can find omega(t) and x_0(t). You can adjust the degree of the polynomial fit by setting 'order'. Note that the number of points used for fitting depends on the step size that you input.
